@@ -15,7 +15,7 @@ A high-end, responsive web application providing a countdown to the Great Muslim
   - Partial Ends: 14:44:00
 
 ## Functional Requirements
-1.  **Countdown Clock:** Real-time countdown displaying Days, Hours, Minutes, and Seconds until the start of totality.
+1.  **Countdown Clock:** Real-time countdown displaying Months, Weeks, Days, Hours, Minutes, and Seconds until the start of totality.
 2.  **Phase Indicator:** Display the current status (e.g., "Counting down to Totality", "Totality in Progress", "Eclipse Completed").
 3.  **Responsive Design:** Optimized for Mobile, Tablet, and Desktop.
 4.  **Aesthetics:** Premium, dark-themed UI with celestial animations (solar corona, moon transitions).
