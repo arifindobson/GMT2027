@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMT2027 | Makkah Total Solar Eclipse Countdown</title>
+    <meta name="description" content="Official countdown to the Total Solar Eclipse in Makkah, Saudi Arabia - August 2, 2027.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    
+    <main class="container">
+        <header class="logo-section">
+            <div class="logo-container">
+                <div class="sun-burst"></div>
+                <div class="kaaba-silhouette">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="30" y="30" width="40" height="40" fill="currentColor" />
+                        <path d="M30 30 L50 20 L70 30 L50 40 Z" fill="rgba(255,255,255,0.1)" />
+                        <rect x="30" y="45" width="40" height="5" fill="rgba(212, 175, 55, 0.8)" />
+                    </svg>
+                </div>
+            </div>
+            <h1 class="title">GMT 2027</h1>
+            <p class="subtitle">Makkah Total Solar Eclipse</p>
+        </header>
+
+        <section class="countdown-section">
+            <div id="countdown" class="countdown-grid">
+                <div class="time-block">
+                    <span id="months" class="number">00</span>
+                    <span class="label">Months</span>
+                </div>
+                <div class="time-block">
+                    <span id="weeks" class="number">00</span>
+                    <span class="label">Weeks</span>
+                </div>
+                <div class="time-block">
+                    <span id="days" class="number">00</span>
+                    <span class="label">Days</span>
+                </div>
+                <div class="time-block">
+                    <span id="hours" class="number">00</span>
+                    <span class="label">Hours</span>
+                </div>
+                <div class="time-block">
+                    <span id="minutes" class="number">00</span>
+                    <span class="label">Minutes</span>
+                </div>
+                <div class="time-block">
+                    <span id="seconds" class="number">00</span>
+                    <span class="label">Seconds</span>
+                </div>
+            </div>
+            <div id="status-indicator" class="status-indicator">
+                Counting down to Totality
+            </div>
+        </section>
+
+        <section class="details-section">
+            <div class="detail-card">
+                <h3>August 2, 2027</h3>
+                <p>Makkah, Saudi Arabia</p>
+            </div>
+            <div class="detail-card">
+                <h3>Totality Time</h3>
+                <p>13:23:00 AST (UTC+3)</p>
+            </div>
+            <div class="detail-card">
+                <h3>Duration</h3>
+                <p>~5m 05s</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>Precise timings for Makkah region. Always use proper eye protection during partial phases.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
